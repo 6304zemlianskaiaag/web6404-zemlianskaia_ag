@@ -1,8 +1,8 @@
-/* ===== Теговые селекторы ===== */
+/*  Теговые селекторы  */
 body {
     font-family: Arial, sans-serif;
-    background-color: #eef3f7;
-    color: #222;
+    background-color: #eef3f7; /* цвет странички */
+    color: #222; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -50,7 +50,7 @@ th {
     background-color: #d6e4f0;
 }
 
-/* ===== Селекторы по классу ===== */
+/* Селекторы по классу  */
 .block {
     background-color: #ffffff;
     max-width: 900px;
