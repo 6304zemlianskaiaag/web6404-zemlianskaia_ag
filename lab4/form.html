@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Скалолазание — Запись</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">Запись на тренировку</h1>
+        <p class="subtitle">Заполни форму для отправки заявки</p>
+    </header>
+
+    <nav>
+        <a class="nav-link" href="index.html">Главная</a>
+        <a class="nav-link" href="safety.html">Правила безопасности</a>
+        <a class="nav-link" href="climbing.html">Скалодромы Самары</a>
+        <a class="nav-link" href="form.html">Запись</a>
+    </nav>
+
+    <main>
+        <section class="block">
+            <h2>Анкета участника</h2>
+            <form id="climb-form">
+                <div class="form-field">
+                    <label>Имя:<br>
+                    <input type="text" id="name" required></label>
+                </div>
+
+                <div class="form-field">
+                    <label>Уровень:<br>
+                    <select id="level">
+                        <option>Новичок</option>
+                        <option>Средний</option>
+                        <option>Опытный</option>
+                    </select></label>
+                </div>
+
+                <div class="form-field">
+                    <label>
+                        <input type="checkbox" id="agree" required>
+                        Согласен на обработку данных
+                    </label>
+                </div>
+
+                <button type="submit" class="nav-link">Отправить на сервер</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Лабораторная работа №4. Тема: скалолазание.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

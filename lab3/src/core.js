@@ -48,16 +48,16 @@ function recSumTo(n)
     return n + recSumTo(n - 1);  
  }
 
-/**
- * Напишите функцию, считающую факториал заданного числа
- * @param {*} n
- */
+
 /**
  * Напишите функцию, считающую факториал заданного числа
  * @param {*} n
  */
 function factorial(n)
  {
+    if(n<0){
+        return undefined;
+    }
     let result = 1; 
     for (let i = 1; i <= n; i++) 
     {
@@ -85,6 +85,9 @@ function isBinary(n)
  */
 function fibonacci(n)
  {
+    if (n <= 0) {
+        return undefined; 
+    }
     if (n <= 2) return 1; 
     let prev = 1; // (n-2)
     let curr = 1; // (n-1)
